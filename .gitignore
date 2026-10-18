@@ -1,0 +1,61 @@
+# Unity: caches, local settings, and build output
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+/GeneratedAssets/
+
+# Local version-control and editor state
+/.plastic/
+/.vs/
+/.vscode/
+/.idea/
+/.gradle/
+/ExportedObj/
+*.csproj
+*.unityproj
+*.sln
+*.slnx
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+# Local credentials and operating-system files
+.env
+.env.*
+!.env.example
+*.private
+*.private.meta
+.DS_Store
+Thumbs.db
+Desktop.ini
+sysinfo.txt
+crashlytics-build.properties
+~UnityDirMonSyncFile~*
+
+# Exported builds
+*.apk
+*.aab
+*.app
+*.unitypackage
+
+# Generated Addressables files
+/Assets/AddressableAssetsData/*/*.bin*
+/Assets/StreamingAssets/aa.meta
+/Assets/StreamingAssets/aa/
